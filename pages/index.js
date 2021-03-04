@@ -66,7 +66,7 @@ export default function Home({ data }) {
           <form onSubmit={handleSubmit}>
             <InputGroup pb="1rem">
               <Input
-                placeholder="Search for Iceland"
+                placeholder="Search for Love"
                 variant="ghost"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
@@ -105,8 +105,8 @@ export default function Home({ data }) {
                   <Image
                     src={pic.src.landscape}
                     alt={pic.url}
-                    width={800}
-                    height={400}
+                    width={600}
+                    height={300}
                   />
                 </a>
               </Link>
